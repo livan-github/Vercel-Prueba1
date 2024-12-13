@@ -21,4 +21,4 @@ const itemRoutes = require('./routes/itemRoutes');
 app.use('/api/items', itemRoutes);
 
 // Start Server
-app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));  
+app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
